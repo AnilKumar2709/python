@@ -1,0 +1,8 @@
+# take a initial and final odometer and calculates its mileage
+
+a=int(input("enter the initial odometer reading:  "))
+b=int(input("enter the final odometer reading:  "))
+c=int(input("enter the fuel consumption:  "))
+mileage=(b-a)/c
+print (f"the mileage of the bike is {mileage} kmpl")
+
