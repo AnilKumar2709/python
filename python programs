@@ -1,0 +1,10 @@
+# take a input from the user if the user enters single digit number multiply that number with 100  if its a two digit number rise the number to the power 5  if the entered number is 3 digit number and ask the user to enter another number and gives sum of those numbers
+
+a=int(input("enter the input  "))
+if a in range(0,10):
+    print(a*100)
+if a in range(10,100):
+    print(a**5)
+if a in range(100,1000):
+    b=int(input("enter the another input  "))
+    print(a+b)
